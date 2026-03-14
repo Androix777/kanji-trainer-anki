@@ -1,0 +1,12 @@
+{
+    "dtw_threshold": 0.2,
+    "rms_threshold": 0.25,
+    "position_threshold": 0.25,
+    "angle_threshold": 0.5,
+    "answer_type": "again_good",
+    "guide_lines": "cross",
+    "show_hint_button": true,
+    "panel_scale": 1.0,
+    "initial_mode": "morph_loop",
+    "pressure_sensitivity": false
+}
