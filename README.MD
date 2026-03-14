@@ -73,3 +73,7 @@ Open via **Tools > Add-ons > Kanji Trainer > Config**.
 | Morph | Animates the transition from your strokes to the reference once |
 | Morph (loop) | Animates the transition in a loop |
 | Overall | Static overlay view |
+
+## Libraries
+
+The addon uses libraries from https://github.com/Androix777/kanji-trainer-libs. These libraries are still in a very raw state. In the future, I plan to clean them up and release them properly.
