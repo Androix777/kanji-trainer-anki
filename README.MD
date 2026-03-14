@@ -42,7 +42,7 @@ Each stroke is evaluated on four criteria:
 | Stroke direction (DTW) | Path shape compared via dynamic time warping |
 | Stroke shape (RMS) | Root mean square deviation of the normalized stroke path |
 | Stroke position | Where the stroke is placed within the character bounding box |
-| Relative angles | Angles between consecutive strokes |
+| Relative angles | Angles between strokes |
 
 Each metric has a configurable threshold. Higher values mean more lenient validation.
 
