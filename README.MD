@@ -42,7 +42,7 @@ Each stroke is evaluated on four criteria:
 | Stroke direction (DTW) | Path shape compared via dynamic time warping |
 | Stroke shape (RMS) | Root mean square deviation of the normalized stroke path |
 | Stroke position | Where the stroke is placed within the character bounding box |
-| Relative angles | Angles between consecutive strokes |
+| Relative angles | Angles between strokes |
 
 Each metric has a configurable threshold. Higher values mean more lenient validation.
 
@@ -73,3 +73,7 @@ Open via **Tools > Add-ons > Kanji Trainer > Config**.
 | Morph | Animates the transition from your strokes to the reference once |
 | Morph (loop) | Animates the transition in a loop |
 | Overall | Static overlay view |
+
+## Libraries
+
+The addon uses libraries from https://github.com/Androix777/kanji-trainer-libs. These libraries are still in a very raw state. In the future, I plan to clean them up and release them properly.
